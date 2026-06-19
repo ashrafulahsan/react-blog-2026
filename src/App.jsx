@@ -3,7 +3,10 @@ import Header from './Header.jsx'
 function App() {
 
   return (
+    <>
+     <Header />
      <h1>Hello, React!</h1>
+    </>
   )
 }
 
