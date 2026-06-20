@@ -1,10 +1,10 @@
-import ToggleExample from "./ToggleExample"
+import User from "./User"
 
 function App() {
 
   return (
     <>
-     <ToggleExample />
+     <User name="Ashraful" age={36}/>
     </>
   )
 }
