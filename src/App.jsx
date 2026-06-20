@@ -1,3 +1,4 @@
+import College from "./College"
 import User from "./User"
 
 function App() {
@@ -8,9 +9,12 @@ function App() {
     email: 'ahsanashraful@gmail.com'
   }
 
+  let collegeNames = ['BUET', 'DU', 'KUET', 'RUET']
+
   return (
     <>
      <User profileInfo={profileInfo} />
+     <College names={collegeNames}/>
     </>
   )
 }
