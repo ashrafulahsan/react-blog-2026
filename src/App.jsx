@@ -1,10 +1,10 @@
-import ParamPass from "./ParamPass"
+import StateExample from "./StateExample"
 
 function App() {
 
   return (
     <>
-     <ParamPass />
+     <StateExample />
     </>
   )
 }
