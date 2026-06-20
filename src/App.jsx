@@ -16,7 +16,7 @@ function App() {
     <>
      <User profileInfo={profileInfo} />
      <College names={collegeNames}/>
-     <Wrapper>
+     <Wrapper color="red">
         <h1>This is section 1</h1>
      </Wrapper> 
      <Wrapper>
