@@ -1,10 +1,10 @@
-function User({name, age, email}){
+function User({profileInfo}){
     return(
         <div>
             <h1>User Component</h1>
-            <p>Name: {name}</p>
-            <p>Age: {age}</p>
-            <p>Email: {email}</p>
+            <p>Name: {profileInfo.name}</p>
+            <p>Age: {profileInfo.age}</p>
+            <p>Email: {profileInfo.email}</p>
         </div>
     )
 }

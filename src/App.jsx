@@ -2,13 +2,15 @@ import User from "./User"
 
 function App() {
 
-  let name="Ashraful"
-  let age=36
-  let email="ahsanashraful@gmail.com"
+  let profileInfo = {
+    name: 'Ashraful',
+    age: 36,
+    email: 'ahsanashraful@gmail.com'
+  }
 
   return (
     <>
-     <User name={name} age={age} email={email} />
+     <User profileInfo={profileInfo} />
     </>
   )
 }
