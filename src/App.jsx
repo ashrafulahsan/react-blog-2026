@@ -1,10 +1,10 @@
-import MultiState from "./MultiState"
+import ToggleExample from "./ToggleExample"
 
 function App() {
 
   return (
     <>
-     <MultiState />
+     <ToggleExample />
     </>
   )
 }
