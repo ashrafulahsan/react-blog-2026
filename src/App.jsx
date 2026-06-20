@@ -1,6 +1,7 @@
 import Header from './Header.jsx'
 import MultiComponent from './MultiComponent.jsx'
 import MultiCompoExport, {Profile, Settings, UserKey} from './MultiCompoExport.jsx'
+import JsxExample from './JsxExample.jsx'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
      <Profile />
      <Settings />
      <p>User Key: {UserKey}</p>
+     <JsxExample />
     </>
   )
 }
