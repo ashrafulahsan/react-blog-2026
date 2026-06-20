@@ -1,5 +1,6 @@
 import College from "./College"
 import User from "./User"
+import Wrapper from "./Wrapper"
 
 function App() {
 
@@ -15,6 +16,12 @@ function App() {
     <>
      <User profileInfo={profileInfo} />
      <College names={collegeNames}/>
+     <Wrapper>
+        <h1>This is section 1</h1>
+     </Wrapper> 
+     <Wrapper>
+        <h1>This is section 2</h1>
+     </Wrapper> 
     </>
   )
 }
