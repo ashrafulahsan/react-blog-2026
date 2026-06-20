@@ -1,10 +1,10 @@
-import StateExample from "./StateExample"
+import MultiState from "./MultiState"
 
 function App() {
 
   return (
     <>
-     <StateExample />
+     <MultiState />
     </>
   )
 }
