@@ -1,10 +1,10 @@
-import CurlyBraces from "./CurlyBraces"
+import ParamPass from "./ParamPass"
 
 function App() {
 
   return (
     <>
-     <CurlyBraces />
+     <ParamPass />
     </>
   )
 }
