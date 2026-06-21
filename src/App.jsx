@@ -1,9 +1,9 @@
-import ControlledComponent from "./ControlledComponent"
+import Checkbox from "./Checkbox"
 
 function App() {
   return (
     <>
-     <ControlledComponent />
+     <Checkbox />
     </>
   )
 }
