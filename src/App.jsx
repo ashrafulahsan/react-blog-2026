@@ -1,9 +1,9 @@
-import Checkbox from "./Checkbox"
+import Radio from "./Radio"
 
 function App() {
   return (
     <>
-     <Checkbox />
+     <Radio />
     </>
   )
 }
