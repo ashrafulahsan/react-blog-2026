@@ -1,9 +1,9 @@
-import Radio from "./Radio"
+import Dropdown from "./Dropdown"
 
 function App() {
   return (
     <>
-     <Radio />
+     <Dropdown />
     </>
   )
 }
