@@ -1,9 +1,9 @@
-import Dropdown from "./Dropdown"
+import Loop from "./Loop"
 
 function App() {
   return (
     <>
-     <Dropdown />
+     <Loop />
     </>
   )
 }
