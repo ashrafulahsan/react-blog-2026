@@ -1,9 +1,9 @@
-import InputField from "./InputField"
+import ControlledComponent from "./ControlledComponent"
 
 function App() {
   return (
     <>
-     <InputField />
+     <ControlledComponent />
     </>
   )
 }
