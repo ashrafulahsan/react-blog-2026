@@ -1,3 +1,5 @@
+import User from './User'
+
 function Loop(){
 
     const userData = [
@@ -30,29 +32,13 @@ function Loop(){
     return(
         <>
             <h1>Loop in JSX with Map Function</h1>
-            <table border="1">
-                <thead>
-                    <tr>
-                        <td>ID</td>
-                        <td>NAME</td>
-                        <td>EMAIL</td>
-                        <td>AGE</td>
-                    </tr>
-                </thead>
-                <tbody>
-                    {
-                        userData.map((user)=>(
-                            <tr>
-                                <td>{user.id}</td>
-                                <td>{user.name}</td>
-                                <td>{user.email}</td>
-                                <td>{user.age}</td>
-                            </tr>
-                        ))
-                    }
+            
+            {
+                userData.map((user)=>(
+                    <User profileInfo={user}/>
+                ))
+            }
                     
-                </tbody>
-            </table>
         </>
     )
 }
