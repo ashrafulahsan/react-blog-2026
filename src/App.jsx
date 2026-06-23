@@ -6,8 +6,13 @@ function App() {
   const [data,setData]=useState(0)
 
   useEffect(()=>{
-    callOnce()
-  },[])
+    // callOnce()
+    counterDependentFuction()
+  },[counter])
+
+  function counterDependentFuction(){
+    console.log("This function only call when counter state update")
+  }
 
   function callOnce(){
     console.log("Call this function once.");
