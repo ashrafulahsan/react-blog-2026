@@ -1,30 +1,9 @@
-import { useEffect, useState } from "react";
+import UseEffectExample from "./UseEffectExample"
 
-function App() {
-
-  const [counter,setCounter]=useState(0)
-  const [data,setData]=useState(0)
-
-  useEffect(()=>{
-    // callOnce()
-    counterDependentFuction()
-  },[counter])
-
-  function counterDependentFuction(){
-    console.log("This function only call when counter state update")
-  }
-
-  function callOnce(){
-    console.log("Call this function once.");
-  }
-
-  
-
+function App() { 
   return (
     <>
-      <h1>useEffect Hook</h1> 
-      <button onClick={()=>setCounter(counter+1)}>Counter {counter}</button>
-      <button onClick={()=>setData(data+1)}>Data {data}</button>
+      <UseEffectExample />
     </>
   )
 }
