@@ -1,9 +1,9 @@
-import UseEffectExample from "./UseEffectExample"
+import UseEffectProps from "./UseEffectProps"
 
 function App() { 
   return (
     <>
-      <UseEffectExample />
+      <UseEffectProps />
     </>
   )
 }
