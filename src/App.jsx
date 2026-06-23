@@ -1,15 +1,19 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function App() {
 
   const [counter,setCounter]=useState(0)
   const [data,setData]=useState(0)
 
+  useEffect(()=>{
+    callOnce()
+  },[])
+
   function callOnce(){
     console.log("Call this function once.");
   }
 
-  callOnce()
+  
 
   return (
     <>
